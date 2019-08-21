@@ -3,13 +3,13 @@ layout: post
 title: "Granada Poster Information"
 date: 2019-08-21
 ---
-Thanks for following the QR code to get more information about my poster. Just to check, it should look like this: 
+Thanks for following the QR code to get more information about my poster. In case you need a refresher, a small version of my poster is below. Keep scrolling beyond that to see the extra information and animations I couldn't fit on it, due to the limits of paper. 
 
 ![Granada Poster](/assets/Granada_poster_thumbnail.png)
 
 If that looks right - then you're in the right place. If you have any questions or comments about the poster, please let me know at [my email](mailto:ac173@hw.ac.uk).
 
-## Citations
+## Citation (yes, just one)
 First I must give kudos to the paper that has inspired and directed a lot of this initial work. That is, **Li, Y. et al. (2015). ‘Momentum rejuvenation’ underlies the phenomenon of noise assisted quantum energy flow. New Journal of Physics**. The paper handily describes an underdiscussed mechanism for noise-assisted quantum transport, that being the prospect of pumping excitation states from lower momenta, to higher momenta. In addition to that, it also provides open source code!
 
 [Click here for the paper](https://iopscience.iop.org/article/10.1088/1367-2630/17/1/013057)
@@ -44,3 +44,8 @@ Tilted plane:
   <source src="/assets/15by15_slope_granada.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+Right, that's everything I could think to include. Thanks for checking the information out! 
+
+Have a lovely day, 
+*Alex*
