@@ -1,0 +1,47 @@
+I"�	<p>Thanks for following the QR code to get more information about my poster. In case you need a refresher, a small version of my poster is below. Keep scrolling beyond that to see the extra information and animations I couldn’t fit on it, due to the limits of paper.</p>
+
+<p><img src="/assets/Granada_poster_thumbnail.png" alt="Granada Poster - yes I spent a &lt;b&gt;lot&lt;\b&gt; of time on this." width="596" height="842" /></p>
+
+<p>If that looks right - then you’re in the right place. If you have any questions or comments about the poster, please let me know at <a href="mailto:ac173@hw.ac.uk">my email</a>.</p>
+
+<h2 id="citation">Citation</h2>
+<p>First I must give kudos to the paper that has inspired and directed a lot of this initial work. That is, <strong>Li, Y. et al. (2015). ‘Momentum rejuvenation’ underlies the phenomenon of noise assisted quantum energy flow. New Journal of Physics</strong>. The paper handily describes an underdiscussed mechanism for noise-assisted quantum transport, that being the prospect of pumping excitation states from lower momenta, to higher momenta. In addition to that, it also provides open source code!</p>
+
+<p><a href="https://iopscience.iop.org/article/10.1088/1367-2630/17/1/013057">Click here for the paper</a></p>
+
+<p><a href="https://figshare.com/articles/Quantum_Classical_Hybrid_Transport_Simulations/1050158">Click here for the code</a></p>
+
+<h2 id="animations">Animations</h2>
+<p>As a poster can’t show you animations, here are the central figures, now in glorious motion.</p>
+
+<p>First the flat chain:</p>
+<video width="864" height="632" controls="">
+  <source src="/assets/1by15_flat_granada.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+<p>Tilted chain:</p>
+
+<video width="864" height="632" controls="">
+  <source src="/assets/1by15_slope_granada.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p>Flat plane:</p>
+
+<video width="864" height="632" controls="">
+  <source src="/assets/15by15_flat_granada.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p>Tilted plane:</p>
+
+<video width="864" height="632" controls="">
+  <source src="/assets/15by15_slope_granada.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p>Right, that’s everything I could think to include. Thanks for checking the information out!</p>
+
+<p>Have a lovely day, 
+<em>Alex</em></p>
+:ET
