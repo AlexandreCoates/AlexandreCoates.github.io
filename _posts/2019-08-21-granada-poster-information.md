@@ -6,7 +6,7 @@ date: 2019-08-21
 Thanks for following the QR code to get more information about my poster. In case you need a refresher, a small version of my poster is below (right-click to view it full). 
 Keep scrolling beyond that to see the extra information and animations I couldn't fit on it, due to the limits of paper. 
 
-<img src="/assets/Granada_poster_thumbnail.png" alt="Granada Poster - yes I spent a lot of time on this, I wanted a big circle in it."  width = 596 height = 842 />
+<p><img src="/assets/Granada_poster_thumbnail.png" alt="Granada Poster - yes I spent a lot of time on this, I wanted a big circle in it."  style="width: 596px;" /></p>
 
 
 If that looks right - then you're in the right place. If you have any questions or comments about the poster, please let me know at [my email](mailto:ac173@hw.ac.uk).
