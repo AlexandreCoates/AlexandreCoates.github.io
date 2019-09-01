@@ -1,0 +1,6 @@
+---
+permalink: /about/
+title: "About"
+---
+This is the page to learn about me, Alexandre Coates! First of all, you can just call me Alex. Secondly, I'm a theoretical physicist at Heriot-Watt University in Scotland. My work is in Open Quantum systems, and I'm particularly interested in Quantum Biology. Right now I'm just finishing the 1st year of my PhD on the Scottish condensed matter CDT, so I've still got lots to learn. </p>
+My interests cover Theory, figuring out how to get better at my PhD, and making science more accessible to as many people as possible. Whether that's making working conditions better as a student rep, telling other students about accessibility, or some new stuff I haven't figured out yet. Outreach is also something I'm looking to do more of in the coming years. So hopefully this site will showcase whatever I've been up to!</p>
