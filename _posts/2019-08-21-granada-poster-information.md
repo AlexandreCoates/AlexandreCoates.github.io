@@ -1,7 +1,15 @@
 ---
-layout: post
 title: "Granada Poster Information"
 date: 2019-08-21
+categories:
+  - blog
+tags:
+  - poster
+  - presentation
+  - work
+  
+author_profile: false
+layout: single
 ---
 Thanks for following the QR code to get more information about my poster. In case you need a refresher, a small version of my poster is below (right-click to view it full). 
 Keep scrolling beyond that to see the extra information and animations I couldn't fit on it, due to the limits of paper. 

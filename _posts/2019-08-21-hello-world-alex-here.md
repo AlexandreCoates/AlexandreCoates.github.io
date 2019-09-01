@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Hello, World! Alex Here"
 date: 2019-08-21
 ---
