@@ -17,6 +17,7 @@ name: Alexandre Coates
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Sciencish
+subtitle: a PhD blog
 title_separator: "|"
 email: ac173@hw.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
