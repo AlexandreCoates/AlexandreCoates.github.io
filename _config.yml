@@ -16,7 +16,8 @@ name: Alexandre Coates
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Alexandre's PhD Site
+title: Sciencish
+title_separator: "|"
 email: ac173@hw.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   The PhD website for Alexandre Coates, Theoretical Physicist studying Open Quntum Systems and Quantum Biology.
@@ -61,7 +62,7 @@ plugins:
 author:
   name   : "Alexandre Coates"
   avatar : "/assets/profile_photo.png"
-  bio    : "I'm Alexandre (you can call me Alex), I'm a PhD Physicist studying Open Quantum Systems and Quantum Biology."
+  bio    : "PhD Theoretical Physicist studying Open Quantum Systems and Quantum Biology. Based in Scotland, interested in public engagement, making universities nicer, and finding new hats."
   links:
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
