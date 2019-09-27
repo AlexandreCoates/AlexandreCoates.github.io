@@ -5,9 +5,13 @@ categories:
   - blog
 tags:
   - poster
-  - presentation
-  - work
-  
+  - PhD
+
+excerpt: "A collection of supplementary information, animations and citations for the poster I presented at the Granada Quantum Matter Summer School. "
+header:
+  overlay_color: "#c71585"
+  show_overlay_excerpt: true
+
 author_profile: false
 layout: single
 ---

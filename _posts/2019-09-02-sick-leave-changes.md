@@ -3,6 +3,18 @@ title: "(Good) Changes to UK PhD Sick Leave"
 date: 2019-09-02
 author_profile: false
 layout: single
+excerpt: "For PhD students funded by UKRI, there have been some great improvements to how sick leave is going to be treated going forward."
+header:
+  overlay_color: "#4b75fe"
+  show_overlay_excerpt: true
+  
+categories:
+  - blog
+tags:
+  - PhD
+  - misc
+  
+ 
 ---
 
 Some good news, as of a few weeks ago, the rules for sick leave/ medical leave of absence have changed for **many** funded PhD students in the UK. [I found out about this from a post by Emma at the University of Sheffield.](https://twitter.com/ejnagouse/status/1164909959861145601?s=20)

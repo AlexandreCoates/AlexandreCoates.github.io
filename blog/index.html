@@ -1,8 +1,17 @@
 ---
 layout: default
 title: The Blog Posts
+
+author_profile: true
+layout: single
+
+excerpt: "What I've written, in order, just for you."
+
+header:
+  overlay_color: "#f29cb7"
+  show_overlay_excerpt: true
 ---
-	<h1>{{ page.title }}</h1>
+	<!--<h1>{{ page.title }}</h1>	-->
 	<ul class="posts">
 
 	  {% for post in site.posts %}

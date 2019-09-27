@@ -3,9 +3,22 @@ title: "Quantum Biology: Challenges of a Speculative Science"
 date: 2019-09-26
 author_profile: false
 layout: single
+
+header:
+  overlay_color: "#008656"
+  show_overlay_excerpt: false
+  actions:
+  - label: "Read the blog post on the Condensed Matters Site"
+  url: "https://condensed-matters-cmcdt.wp.st-andrews.ac.uk/2019/08/01/quantum-biology-challenges-of-a-speculative-science/"
+categories:
+  - blog
+tags:
+  - public engagement
+  - PhD
+  
 ---
-As part of my work with the [Scottish Condensed Matter CDT](https://cm-cdt.supa.ac.uk/) is volunteering to help run the CDT blog. 
-Things were a bit slow over the summer with conferences, but I managed to [write a piece on Quantum Biology, and how to justify working in more speculative areas of science](https://condensed-matters-cmcdt.wp.st-andrews.ac.uk/2019/08/01/quantum-biology-challenges-of-a-speculative-science/) for the blog in August. 
+Part of my work with the [Scottish Condensed Matter CDT](https://cm-cdt.supa.ac.uk/) is volunteering to help run the CDT blog. 
+So recently I wrote a piece on [Quantum Biology, and how to justify working in more speculative areas of science](https://condensed-matters-cmcdt.wp.st-andrews.ac.uk/2019/08/01/quantum-biology-challenges-of-a-speculative-science/) for the blog in August. 
 
 It is a bit of writing on some of the challenges I face in motivating why I am interested in studying Quantum Biology.
 Unlike a lot of areas, things can get a bit speculative, lots of people have doubts about some claims in the field, and these are not unreasonable claims. This post is my attempt to lay out not only what some of the fields claims are, but what is hard to believe about them. 

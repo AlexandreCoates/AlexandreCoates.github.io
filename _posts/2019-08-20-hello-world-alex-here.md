@@ -1,6 +1,16 @@
 ---
 title: "Hello, World! Alex Here"
-date: 2019-08-20
+date: 2019-08-20#
+excerpt: "Hi"
+header:
+  overlay_color: "#cc5500"
+  show_overlay_excerpt: true
+  
+categories:
+  - blog
+tags:
+  - misc
+  
 ---
 
 I may have started this unwisely late at night, but now I have a little PhD site and blog to host things. For those curious, this site is run on Jekyll, which runs on top of GitHub pages. 
