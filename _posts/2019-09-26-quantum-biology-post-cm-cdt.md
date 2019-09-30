@@ -8,8 +8,8 @@ header:
   overlay_color: "#008656"
   show_overlay_excerpt: false
   actions:
-  - label: "Read the blog post on the Condensed Matters Site"
-  url: "https://condensed-matters-cmcdt.wp.st-andrews.ac.uk/2019/08/01/quantum-biology-challenges-of-a-speculative-science/"
+    - label: "Read the blog post on the Condensed Matters Site"
+      url: "https://condensed-matters-cmcdt.wp.st-andrews.ac.uk/2019/08/01/quantum-biology-challenges-of-a-speculative-science/"
 categories:
   - blog
 tags:
