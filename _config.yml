@@ -36,6 +36,10 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 #timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+future: true
+
+google_site_verification: "Gwe28rJkuWdPEl8ND19tJ78_-wrcK2izjfA4pSqJpx4"
+
 include:
   - _pages
 
@@ -116,3 +120,4 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
