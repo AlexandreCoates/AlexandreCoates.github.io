@@ -18,15 +18,29 @@ tags:
 ---
 The latest from me is that I have submitted [my first preprint to ArXiv](https://arxiv.org/abs/2106.12567), **Localisation determines the optimal noise rate for quantum transport**. 
 It is the result of a few years of fumbling around in the dark until I found a result I ultimately thought was quite neat. Namely, that the eigenstate localisation of a system can tell you a lot about the relative importance of different Environment-Assisted Quantum Transport (ENAQT) effects. 
-I'm hoping to write a nice popular summary before the referees get back to me, but before that I felt it might be good to stretch myself and try some new programming. 
+I'm hoping to write a nice popular summary before the referees get back to me, but before that I felt it might be good to stretch myself and try something new.  
 
-Namely, I decided to try and make some bits of the paper interactive, to show how different forms of localisation occur. 
+Namely, I decided to try and make some figure from the paper interactive, to show how different forms of localisation occur, as I think playing around gives a new sense of intuition. 
+My work focussed on chains of two level systems, coupled to their neighbours, and looked at how localising them changed the importance of different ENAQT effects. 
 
-Setup: consider a chain of 10, two level systems with nearest neighbour coupling. Perhaps Calcium ions coupled to each other by lasers. If you put these sites in a linear potential (increasing the energy at one end for example), you would expect to see Wannier-Stark localisation. 
-Just below you should _hopefully_ be able to play around with just that, varying the potential with respect to a bond strength _J_ and seeing how the eigenenergies change their spacing, as well as seeing the eigenstates contract onto fewer and fewer sites until each eigenstate only overlaps with its neighbours. 
+So for these two visualisations we consider a chain of 10 two-level sites, say Calcium ions as experimentalists have done that. If you were to change the energy linearly across the system by applying a field for example, you would observe Wannier-Stark localisation. 
+That is, the eigenstates of the system contract, and are spread out over a smaller number of sites. The upshot being, they overlap with fewer of the other system eigenstates. The intuition is quite simple, vary the energy across a system, and in the eigenbasis, the high energy eigenstates will all be at one end, and *vice versa*.
 
- <embed type="text/html" src="/assets/wannier-N10.html" width="600" height="500"> 
-Then here we have Anderson localisation, pull a random value from a Gaussian distribution and apply it to each site. The increasing disorder exponentially increases the amount of destructive interference in the system, also localising it, but in a much more disordered way. (For visual simplicity, one set of random disorders has been generated and you can scale those up and down). 
- <embed type="text/html" src="/assets/anderson-N10.html" width="600" height="500"> 
+You can play around with exactly that effect below. This shows the eigenstates of a length 10 system, and you can vary the difference in energy across the system in terms of the bond strength *J*, and the sites they are present on. The size of the diamonds are proportional to the propability density of the eigenstate being on that site. 
+Note how the eigenstates overlap with fewer of their friends as the potential increases.  
 
-These two were made in Bokeh, an open-source more web-friendly visualisation suite than matplotlib which I've made most of my other figures in. Who knows, maybe more interactive visualisations lie in my future
+<iframe src="/assets/wannier-N10.html" title="Wannier-Stark localisation of length 10 chain" height = "500" width = 100%>
+</iframe>
+
+Then here we have Anderson localisation, the one that always pops up in reality because it's hard to make anything perfect! The intuition is again quite simple, if you add random spikes to the system energy (manufacturing or experimental defects perhaps), then you get lots of destructive interference in the system. 
+The result is the classic, exponential Anderson localisation. Here for visual clarity one set of random energies has been pulled from a Gaussian distribution, and applied to a degenerate chain. As you increase the anderson disorder, you scale up the size of these spikes and troughs. You should see a much less ordered localisation process. 
+<iframe src="/assets/anderson-N10.html" title="Anderson localisation of length 10 chain" height = "500" width = 100%>
+</iframe>
+
+These two were made in Bokeh, an open-source and slightly more web-friendly visualisation suite than matplotlib (which I've made most of my other figures in). It was a slightly painful learning experience as I had to touch some javascript to make these work. 
+But it was worthwhile nevertheless, or maybe I'm too easily entertained by little web interactives!
+
+In any case, with this out of the way, the next step is to write a little popular summary - and maybe see if I can justify making any more interactive figures on the way. 
+If you're interested in the preprint, do follow the arXiv link at the top, we did our best to make it as readable a paper as possible!
+
+Until the next time, take care.
