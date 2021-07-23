@@ -23,7 +23,7 @@ I'm hoping to write a nice popular summary before the referees get back to me, b
 Namely, I decided to try and make some figure from the paper interactive, to show how different forms of localisation occur, as I think playing around gives a new sense of intuition. 
 My work focussed on chains of two level systems, coupled to their neighbours, and looked at how localising them changed the importance of different ENAQT effects. 
 
-So for these two visualisations we consider a chain of 10 two-level sites, say Calcium ions as experimentalists have done that. If you were to change the energy linearly across the system by applying a field for example, you would observe Wannier-Stark localisation. 
+So for these two visualisations we consider a chain of 10 two-level sites, say Calcium ions as experimentalists have done that. For the mathematically minded that would be $$H = \sum_{i = 1}^{N-1} |i>< i+1 | + |i+1>< i|.$$ If you were to change the energy linearly across the system by applying a field for example, you would observe Wannier-Stark localisation. 
 That is, the eigenstates of the system contract, and are spread out over a smaller number of sites. The upshot being, they overlap with fewer of the other system eigenstates. The intuition is quite simple, vary the energy across a system, and in the eigenbasis, the high energy eigenstates will all be at one end, and *vice versa*.
 
 You can play around with exactly that effect below. This shows the eigenstates of a length 10 system, and you can vary the difference in energy across the system in terms of the bond strength *J*, and the sites they are present on. The size of the diamonds are proportional to the propability density of the eigenstate being on that site. 
