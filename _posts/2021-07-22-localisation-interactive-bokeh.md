@@ -35,10 +35,9 @@ Note how the eigenstates overlap with fewer of their friends as the potential in
 
 Then here we have Anderson localisation, the one that always pops up in reality because it's hard to make anything perfect! The intuition is again quite simple, if you add random spikes to the system energy (manufacturing or experimental defects perhaps), then you get lots of destructive interference in the system. 
 The result is the classic, exponential Anderson localisation. Here for visual clarity one set of random energies has been pulled from a Gaussian distribution, and applied to a degenerate chain. As you increase the anderson disorder, you scale up the size of these spikes and troughs. You should see a much less ordered localisation process. 
-<div> 
-<iframe src="/assets/anderson-N10.html" title="Anderson localisation of length 10 chain" height = "500" width = 100%> 
-</iframe> 
-</div>
+
+<iframe src="/assets/anderson-N10.html" title="Anderson localisation of length 10 chain" height = "500" width = 100%> </iframe> 
+
 
 These two were made in Bokeh, an open-source and slightly more web-friendly visualisation suite than matplotlib (which I've made most of my other figures in). It was a slightly painful learning experience as I had to touch some javascript to make these work. 
 But it was worthwhile nevertheless, or maybe I'm too easily entertained by little web interactives!
