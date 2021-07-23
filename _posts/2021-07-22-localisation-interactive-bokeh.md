@@ -28,14 +28,14 @@ That is, the eigenstates of the system contract, and are spread out over a small
 
 You can play around with exactly that effect below. This shows the eigenstates of a length 10 system, and you can vary the difference in energy across the system in terms of the bond strength *J*, and the sites they are present on. The size of the diamonds are proportional to the propability density of the eigenstate being on that site. 
 Note how the eigenstates overlap with fewer of their friends as the potential increases.  
-
+<div class="iframe-container">
 <iframe src="/assets/wannier-N10.html" title="Wannier-Stark localisation of length 10 chain" height = "500" width = 100%>
-</iframe>
+</iframe></div>
 
 Then here we have Anderson localisation, the one that always pops up in reality because it's hard to make anything perfect! The intuition is again quite simple, if you add random spikes to the system energy (manufacturing or experimental defects perhaps), then you get lots of destructive interference in the system. 
 The result is the classic, exponential Anderson localisation. Here for visual clarity one set of random energies has been pulled from a Gaussian distribution, and applied to a degenerate chain. As you increase the anderson disorder, you scale up the size of these spikes and troughs. You should see a much less ordered localisation process. 
-<iframe src="/assets/anderson-N10.html" title="Anderson localisation of length 10 chain" height = "500" width = 100%>
-</iframe>
+<div class="iframe-container"><iframe src="/assets/anderson-N10.html" title="Anderson localisation of length 10 chain" height = "500" width = 100%>
+</iframe></div>
 
 These two were made in Bokeh, an open-source and slightly more web-friendly visualisation suite than matplotlib (which I've made most of my other figures in). It was a slightly painful learning experience as I had to touch some javascript to make these work. 
 But it was worthwhile nevertheless, or maybe I'm too easily entertained by little web interactives!
