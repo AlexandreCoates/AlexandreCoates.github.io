@@ -14,8 +14,13 @@ tags:
   - PhD
   - misc
   - code
- 
+
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
+
 ---
+# What's new?
 The latest from me is that I have submitted [my first preprint to ArXiv](https://arxiv.org/abs/2106.12567), **Localisation determines the optimal noise rate for quantum transport**. 
 It is the result of a few years of fumbling around in the dark until I found a result I ultimately thought was quite neat. Namely, that the eigenstate localisation of a system can tell you a lot about the relative importance of different Environment-Assisted Quantum Transport (ENAQT) effects. 
 I'm hoping to write a nice popular summary before the referees get back to me, but before that I felt it might be good to stretch myself and try something new.  
@@ -26,6 +31,7 @@ My work focussed on chains of two level systems, coupled to their neighbours, an
 So for these two visualisations we consider a chain of 10 two-level sites, say Calcium ions as experimentalists have done that. For the mathematically minded that would be $$H = \sum_{i = 1}^{N-1} |i>< i+1 | + |i+1>< i|.$$ If you were to change the energy linearly across the system by applying a field for example, you would observe Wannier-Stark localisation. 
 That is, the eigenstates of the system contract, and are spread out over a smaller number of sites. The upshot being, they overlap with fewer of the other system eigenstates. The intuition is quite simple, vary the energy across a system, and in the eigenbasis, the high energy eigenstates will all be at one end, and *vice versa*.
 
+## Wannier-Stark Localisation
 You can play around with exactly that effect below. This shows the eigenstates of a length 10 system, and you can vary the difference in energy across the system in terms of the bond strength *J*, and the sites they are present on. The size of the diamonds are proportional to the propability density of the eigenstate being on that site. 
 Note how the eigenstates overlap with fewer of their friends as the potential increases.  
 <div class="iframe-container"> 
@@ -33,6 +39,7 @@ Note how the eigenstates overlap with fewer of their friends as the potential in
  </iframe> 
 </div>
 
+## Anderson Localisation
 Then here we have Anderson localisation, the one that always pops up in reality because it's hard to make anything perfect! The intuition is again quite simple, if you add random spikes to the system energy (manufacturing or experimental defects perhaps), then you get lots of destructive interference in the system. 
 The result is the classic, exponential Anderson localisation. Here for visual clarity one set of random energies has been pulled from a Gaussian distribution, and applied to a degenerate chain. As you increase the anderson disorder, you scale up the size of these spikes and troughs. You should see a much less ordered localisation process. 
 <div class="iframe-container"> 
