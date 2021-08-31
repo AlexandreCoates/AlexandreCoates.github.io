@@ -28,7 +28,7 @@ So I thought it would be good to show that here as well.
 
 ## Slide 1 - relevant ENAQT mechanisms
 
-![Slide 1](/assets/quamp/Slide1.jpg)
+![Slide 1](/assets/quamp/Slide1.JPG)
 
 Here I show 3 relevant ENAQT mechanisms for the paper. They are linewidth broadening, the exclusive subspace, and momentum rejuvenation respectively. The first two are size-independent, being dependent only on a system's energy differences and the linearity of the eigenbasis (meaning there is always at least 1 eigenstate with 0 presence on a given site).
 
@@ -36,7 +36,7 @@ Meanwhile, momentum rejuvenation is a finite size effect, dependent on the effec
 
 ## Slide 2 - the set up
 
-![Slide 2](/assets/quamp/Slide2.jpg)
+![Slide 2](/assets/quamp/Slide2.JPG)
 
 This investigation was carried out by modelling thousands of nearest neighbour chains. We generated them with a range of gradients $\eta$, and a range of random on-site disorders $\zeta$, sampled from Normal distributions. By varying the gradients and the width of the Gaussian distributions $\sigma$ we were able to localise the chains in various ways.
 
@@ -44,7 +44,7 @@ The pumping scheme was to pump onto all sites equally (the steady state equivale
 
 ## Slide 3 - effects of localisation
 
-![Slide 3](/assets/quamp/Slide3.jpg)
+![Slide 3](/assets/quamp/Slide3.JPG)
 
 The point here is very directly that, the more localised a system is, the less spread out it's eigenstates are. In a very direct sense, that is the _definition_ of localisation. To ensure our intuition is general we consider combinations of two localisation methods: one from applying a linear potential (Wannier-Stark) and another from applying random disorders (Anderson), both affect the eigenbasis differently.
 
@@ -72,7 +72,7 @@ You can play with interactive sliders below to see how the two kinds of localisa
 
 ## Slide 4 - relating localisation and peak noise to a power law
 
-![Slide 4](/assets/quamp/Slide4.jpg)
+![Slide 4](/assets/quamp/Slide4.JPG)
 
 Finally we look at chains with different lengths and see how the optimal dephasing rates change across them. We see a very consistent shape that fits very well to our amended curved power law $\Gamma_{optimal} \propto IPR^{\lambda + \kappa \cdot IPR}$, where $\lambda$ corresponds to the size independent effects, and $\kappa$ relates to the size-dependent effects, modelling the influence of momentum rejuvenation.
 
